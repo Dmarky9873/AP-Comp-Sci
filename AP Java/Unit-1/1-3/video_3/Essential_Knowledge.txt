@@ -1,0 +1,15 @@
+The assignment operator (=) allows a program to initialize or change the value stored in a variable. The value of the expression on the right is stored in the variable on the left. (int x = 5;)
+
+    The equals sign (=) is a instruction. It assigns the value on the right of the ASSIGNMENT OPERATOR to the variable on the left.
+
+    You can have multiple on the same line, it works right to left.
+
+    x = y = z = 7; 
+
+    All of the above are equal to 7.
+
+During execution, expressions are evaluated to produce a single value.
+
+    The order of operations still applies, and the assignment operator comes after everything is evaluated (after BEDMAS).
+
+The value of an expression has a type based on the evaluation of the expression.

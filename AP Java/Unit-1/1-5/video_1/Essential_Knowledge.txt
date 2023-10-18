@@ -1,0 +1,17 @@
+The casting* operators (int) (double) can be used to create a temporary value converted to a different data type.
+
+    *Casting: to change the data type of a variable from one type to another.
+
+Casting a double value to an int causes the digits to the right of the decimal point to be truncated**.
+
+    **Truncated: shortened.
+
+Some programming code causes int values to be automatically cast (widened) to double values.
+
+Values of type double can be rounded to the nearest integer by:
+
+    Positive numbers:
+        (int)(x + 0.5)
+
+    Negative numbers:
+        (int)(x - 0.5)

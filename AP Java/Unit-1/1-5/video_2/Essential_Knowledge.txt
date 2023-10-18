@@ -1,0 +1,16 @@
+Integer values in Java are represented by values of type int, which are stored using a finite amount (4 bytes) of memory. Therefore, an int value must be in the range from Integer.MIN_VALUE* to Integer.MAX_VALUE** inclusive.
+
+    *-2,147,483,647
+    **2,147,483,648
+
+    For doubles its up to 14-15 digits.
+
+If an expression would evaluate to an int value outside of the allowed range, an integer overflow occurs. This could result in an incorrect value within the allowed range.
+
+What happens when an overflow occurs?
+    It wraps around to the Integer.MIN_VALUE.
+
+What happens when an underflow occurs?
+    It wraps around to the Integer.MAX_VALUE.
+
+The compilor error doesn't occur when adding two numbers results in a too large/small number, it just performs an overflow/underflow.

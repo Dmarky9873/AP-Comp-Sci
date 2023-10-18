@@ -1,0 +1,1 @@
+The increment operator (++) and decrement operator (--) are used to add 1 or subtract 1 from the stored value of a variable or an array element. The new value is assigned to the variable or array element.
