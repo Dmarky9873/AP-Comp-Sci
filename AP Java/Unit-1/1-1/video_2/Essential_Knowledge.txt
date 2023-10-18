@@ -1,0 +1,2 @@
+*A string literal in Java is an exact sequence of characters (letters, numbers, or symbols) which are enclosed between two quotation marks.
+*A string literal is enclosed in double quotes

@@ -1,0 +1,5 @@
+Operators can be used to cconstruct compound expressions.
+
+During evaluation, operands are associated with operators according to operator precedence to determine how they are grouped. (BEDMAS)
+
+An attempt to divide an integer will result in an ArithmeticExeption(see topic 1.1) to occur.

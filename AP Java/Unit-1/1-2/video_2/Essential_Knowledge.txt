@@ -1,0 +1,33 @@
+The three primitive data types used in the course are `int`, `double`, and `Boolean`. 
+
+Each variable has associated memory that is used to hold its value.
+
+The memory associated with a variable of a primitive type holds an actual primitive value.
+
+When a variable is declared `final`, its value cannot be chanced once it is initialized.
+
+What is a variable?
+    A variable is a name given to a memory location that is holding a specified type of value.
+
+Naming a variable
+    Rules:
+        May consist of letters, digits or an underscore (case sensitive)
+        May not start with a digits
+        Spaces are not allowed
+        May not use any other characters such as &, @ or $
+        May not use Java reserved words
+
+    As a good practice, variable names should start with a lowercase letter and use "camel case": "thisIsAGoodExample"
+
+Declaring variables in code:
+    Primitive data types:
+        Integers: int
+        Floating-point values: double
+        Boolean values: boolean
+    Uses the format: (data type) (variable name);
+
+    If you want to declare a variable that cannot be changed once given a value you use the `final` reserved word.
+        Example:
+            final double DAYS_IN_WEEK;
+
+        ***For final variables (constants), use ALL CAPS and underscores when naming.

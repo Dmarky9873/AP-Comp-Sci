@@ -1,0 +1,30 @@
+3 Error Types:
+
+    1. Syntax/Compiler Error
+
+        Examples:
+
+        System.ot.print("Hi");
+        problem: out is spelled wrong
+
+        system.out.print("Hi");
+        problem: the S in System should be capitalized
+
+        Detection:
+        While some IDEs will detect syntax errors as code is typed, syntax errors are identified when the program is compiled. A program will not compile or run while syntax errors are present.
+
+    2. Exception
+
+        Example:
+        The program attempts to divide a number by 0.
+
+        Detection: 
+        Exceptions occur while the program is running and will cause the program to terminate abnormally. A program "throws an exception".
+
+    3. Logic Error
+
+        Example:
+        The programmer accidentally uses a minus (-) instead of a plus (+) when finding the sum of two numbers.
+
+        Detection: 
+        Logic errors are usually detected after a program has been run when actual output is compared to anticipated output.sw

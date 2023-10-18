@@ -1,0 +1,3 @@
+System.out.print and System.out.println display information on the computer monitor
+
+System.out.println moves the cursor to a new line after the information has been displayed while System.out.print does not.

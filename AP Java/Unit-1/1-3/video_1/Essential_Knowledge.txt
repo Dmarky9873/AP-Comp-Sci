@@ -1,0 +1,18 @@
+A literal ("hello there") is the literal code representation of a fixed value.
+
+Arithmetic expressions include expressons of type `int` and `double`.
+
+The arithmetic operators consist of +,-,*,/,%
+
+An arithmetic operation that uses two `int` values will evaluate to an int value.
+
+An arithmetic operation that uses a `double` value will evaluate to a double value.
+
+Aritmetic operators:
+    Addition (+): Gives the sum of a addition problem.
+    Subtraction (-): Gives the difference of a subtraction problem
+    Multiplication (*): Gives the product of a multiplication problem.
+    Divsion (/): Gives quotient of a division problem (rounds down for ints e.g. 1/2 = 0)
+    Modulus (%): Gives remainder of a division problem
+
+    ***For any situation involving a int and a double the result will be a double (the bigger data type)

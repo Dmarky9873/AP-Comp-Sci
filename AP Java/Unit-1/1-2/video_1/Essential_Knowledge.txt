@@ -1,0 +1,14 @@
+Type: Set of values (a domain) and set of operations on them.
+
+Data types can be categorized as either primitive or reference
+
+Primitive data types used in the course define the set of operations for numbers and Boolean values.
+
+Data types:
+    Boolean: true or false
+        Size = 1 bit
+    Int: whole numbers
+        Size = 32 bits
+    Double: decimal numbers (a.k.a floating point numbers)
+        Size = 64
+
