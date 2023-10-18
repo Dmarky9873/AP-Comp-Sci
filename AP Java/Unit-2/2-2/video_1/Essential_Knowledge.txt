@@ -1,0 +1,11 @@
+A signature consists of fthe constructor name and the parameter list.
+
+The parameter list, in the header of a constructor, lists the types of values that are passed and their variable names. These are often referred to as formal paramters.
+
+A parameter is a value that is passed into a constructor. These are often referred to as actual paramters.
+
+Constructors are said to be overloaded when there are multiple constructors with the same name but a different signature.
+
+The actual paramters passed to a constructor must be compatible with the types identified in the formal paramter list.
+
+Parameters are passed using call by value. Call by value initializes the formal parameters with copies of the actual parameters.

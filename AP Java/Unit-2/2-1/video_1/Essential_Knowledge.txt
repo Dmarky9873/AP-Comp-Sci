@@ -1,0 +1,11 @@
+An object is a specific instance of a class with defined attributes.
+
+A class is the formal implementation or blueprint of the attributes and behaviors of an object.
+
+    A class is a blueprint for creating objects with the same behavior and defined attributes.
+
+    An object is a specific entity made from a class that you can manipulate in your programs.
+
+    Objects are instances of classes with variables used to name them.
+
+An object is an instance of a class.
