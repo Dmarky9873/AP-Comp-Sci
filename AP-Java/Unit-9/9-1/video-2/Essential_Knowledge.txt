@@ -1,0 +1,1 @@
+The keyword extends is used to establish an inheritance relationship between a subclass and a superclass. A class can extend only one superclass.

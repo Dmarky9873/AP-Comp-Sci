@@ -1,6 +1,8 @@
 A class hierarchy can be developed by putting common attributes and behaviors of related classes into a single class called a superclass.
 
 Classes that extend a superclass, called subclasses, can draw upon the existing attributes and behaviors of the superclass without repeating these in code.
+    *Each subclass can only have one superclass
+    *All subclasses inherit the attributes and methods of their superclasses
 
 Extending a subclass from a superclass creates an "is-a" relationship from the subclass to the superclass.
 
