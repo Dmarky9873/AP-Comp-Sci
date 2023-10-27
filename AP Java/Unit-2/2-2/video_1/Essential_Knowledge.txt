@@ -1,4 +1,4 @@
-A signature consists of fthe constructor name and the parameter list.
+A signature consists of the constructor name and the parameter list.
 
 The parameter list, in the header of a constructor, lists the types of values that are passed and their variable names. These are often referred to as formal paramters.
 
