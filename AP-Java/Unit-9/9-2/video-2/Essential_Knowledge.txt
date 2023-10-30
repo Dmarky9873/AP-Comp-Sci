@@ -1,0 +1,11 @@
+Constructors are not inherited.
+
+The superclass constructor can be called from the first line of a subclass by using the keyword "super" and passing appropriate parameters.
+
+The actual parameters passed in the call to the superclass constructor provide values that the constructor can uses to initialize the object's instance variables.
+
+When a subclass's constructor does not explicitly call a superclass's constructor using "super", java inserts a call to the superclass's no-argument constructor.
+
+Regardless of whether the superclass constructor is called implicitly or explicitly, the process of calling superclass constructors continues until the Object constructor is called. At this point, all of the constructors within the hierarchy execute beginning with the Object constructor.
+
+When using super it has to be in the first line of the constructor body.
