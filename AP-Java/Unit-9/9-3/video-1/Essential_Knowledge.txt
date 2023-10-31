@@ -1,0 +1,14 @@
+Method overriding occurs when a public method in a subclass has the same method signature as a public method in the superclass.
+
+Any method that is called must be defined within its own class or its superclass.
+
+A subclass is usually designed to have modified (overridden) or additional methods or instance variables.
+
+A subclass will inherit all public methods from the superclass; these methods remain public in the subclass.
+
+Options when we extend a superclass (create a subclass):
+    Inherit methods: Any public methods in the superclass become valid public methods of the subclass. These are especially important to access private instance variables of the superclass (getAge() for example).
+
+    Write new methods: The subclass can have additional methods that are completely independent of methods in the superclass. This includes methods that are overloaded (same method name, but different signatures) and treated as independent methods.
+
+    Override methods: Write a new and different implementation of a method that already exists in the superclass.
