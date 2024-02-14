@@ -5,12 +5,12 @@ public class BinarySearchIterative {
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<Integer>();
 
-        // Fill array with 10,000 ascending values
+        // Populate array with 10,000 ascending values
         for (int i = 0; i < 10000; i++) {
             arr.add(i);
         }
 
-        int numToFind = Integer.parseInt(input("Please enter the number to find from 0-999 inclusive:\n"));
+        int numToFind = Integer.parseInt(input("Please enter the number to find from 0-9999 inclusive:\n"));
 
         int index = binarySearch(arr, numToFind);
 
